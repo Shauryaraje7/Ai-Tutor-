@@ -1,0 +1,58 @@
+.progress {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .progress h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .tab {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    background: none;
+  }
+  
+  .tab.active {
+    background-color: #00C4B4;
+    color: white;
+  }
+  
+  .tab:hover {
+    background-color: #E6F3F3;
+  }
+  
+  .progress-content {
+    flex: 1;
+    background-color: #B2E4E4;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .download-btn {
+    align-self: flex-end;
+    padding: 12px 24px;
+    background-color: #FFC107; /* Yellow color */
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .download-btn:hover {
+    background-color: #e0a800;
+  }

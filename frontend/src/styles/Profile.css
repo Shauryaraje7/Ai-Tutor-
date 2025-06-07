@@ -1,0 +1,93 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .profile-picture {
+    width: 128px;
+    height: 128px;
+    background-color: #B2E4E4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .profile-picture .icon {
+    width: 64px;
+    height: 64px;
+    color: #666;
+  }
+  
+  .profile-form {
+    width: 100%;
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .profile-form input,
+  .profile-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .profile-form input:focus,
+  .profile-form select:focus {
+    outline: none;
+    border-color: #00C4B4;
+    box-shadow: 0 0 0 2px rgba(0, 196, 180, 0.2);
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group .input-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    color: #666;
+  }
+  
+  .profile-form select {
+    appearance: none;
+  }
+  
+  .edit-btn {
+    background: none;
+    border: none;
+    color: #00C4B4;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .save-btn {
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-btn:hover {
+    background-color: #333;
+  }

@@ -1,0 +1,229 @@
+.exam-preparation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+  }
+  
+  .exam-preparation h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .input-section {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .input-group input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #00C4B4;
+    box-shadow: 0 0 0 2px rgba(0, 196, 180, 0.2);
+  }
+  
+  .generate-btn {
+    padding: 12px 24px;
+    background-color: #00C4B4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .generate-btn:hover {
+    background-color: #00a89a;
+  }
+  
+  .schedule-section {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .schedule-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .reminders {
+    background-color: #E6F3F3;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .reminders h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .motivational-message {
+    font-style: italic;
+    color: #00C4B4;
+    margin-bottom: 16px;
+  }
+  
+  .day-schedule {
+    background-color: #B2E4E4;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .day-schedule h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .topic {
+    margin-bottom: 12px;
+  }
+  
+  .topic p {
+    margin: 4px 0;
+  }
+  
+  .topic a {
+    color: #00C4B4;
+    text-decoration: underline;
+  }
+  
+  .studied-btn {
+    padding: 8px 16px;
+    background-color: #00C4B4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .studied-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .quiz-btn {
+    padding: 12px 24px;
+    background-color: #00C4B4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .quiz-btn:hover {
+    background-color: #00a89a;
+  }
+  
+  .quiz-section {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .quiz-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .quiz-question {
+    background-color: #B2E4E4;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .quiz-question p {
+    margin: 8px 0;
+  }
+  
+  .quiz-question textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+  }
+  
+  .submit-quiz-btn {
+    padding: 12px 24px;
+    background-color: #00C4B4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .submit-quiz-btn:hover {
+    background-color: #00a89a;
+  }
+  
+  .results-section {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .results-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .results-section p {
+    margin: 8px 0;
+  }
+  
+  .results-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+  }
+  
+  .restart-btn {
+    padding: 12px 24px;
+    background-color: #00C4B4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .restart-btn:hover {
+    background-color: #00a89a;
+  }

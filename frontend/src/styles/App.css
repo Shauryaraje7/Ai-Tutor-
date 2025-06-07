@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #E6F3F3; /* Light cyan background from the design */
+}
+
+.main-content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
