@@ -10,8 +10,8 @@ CORS(app)
 load_dotenv()
 
 # API key for Gemini API (your updated key)
-API_KEY = 'AIzaSyCmCmLTaVf2iMlbxLN9NFoL1u_LPQJclV4'
-GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent'
+API_KEY = '......'
+GEMINI_API_URL = '.....'
 
 # In-memory store for user data
 users_data = {}
